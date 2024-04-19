@@ -2,6 +2,7 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{" Vol:",        "~/.config/dwmblocks/dwmblocks-volume.sh",                                                       0,        10},
+	/*{"Bat:",        "~/.config/dwmblocks/dwmblocks-battery.sh",                                                       1,        15},*/
 	{"", "date '+Date:[%d/%m/%Y] | Time:[%T]'",					1,		0},
 };
 
