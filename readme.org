@@ -1,7 +1,15 @@
-* this is a test
-** testing
-+ dwm
-+ dwmblocks
-+ st
-+ dmenu
-+ picom
+* Dotfiles
+Nothing complicated, I am a simple man, all I need is to get stuff done
+
+** Info
++ WM: [[https://dwm.suckless.org/][dwm]]
++ Compositor: picom
++ Terminal: [[https://st.suckless.org/][st]]
++ Shell: bash
++ Font: Iosevka
++ Terminal Font: Iosevka Term
++ Application Launcher: [[https://tools.suckless.org/dmenu/][dmenu]]
++ Status Bar: default bar with [[https://github.com/torrinfail/dwmblocks][dwmblocks]]
+
+** Screenshots
+todo
