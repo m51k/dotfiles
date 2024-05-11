@@ -1,5 +1,5 @@
 * Dotfiles
-Nothing complicated, I am a simple man, all I need is to get stuff done
+Nothing complicated, I am a simple man and all I need is to get stuff done.
 
 ** Info
 + WM: [[https://dwm.suckless.org/][dwm]]
@@ -10,6 +10,7 @@ Nothing complicated, I am a simple man, all I need is to get stuff done
 + Terminal Font: Iosevka Term
 + Application Launcher: [[https://tools.suckless.org/dmenu/][dmenu]]
 + Status Bar: default bar with [[https://github.com/torrinfail/dwmblocks][dwmblocks]]
++ Screenshot Tool: scrot
 
 ** Screenshots
 todo
