@@ -1,16 +1,19 @@
 [username]
 style_user = "green bold"
 style_root = "red bold"
-format = "[$user]($style)"
+format = "[╭─╴](blue bold)[$user]($style)"
 show_always = true
 
 [hostname]
 ssh_only = false
-format = '@[$hostname](bold yellow) '
-
-[character]
-success_symbol = "[>](bold green)"
-error_symbol = "[>](bold red)"
+format = '[@](bold blue)[$hostname](bold yellow) '
 
 [directory]
-style = "bold italic blue"
+style = "bold italic cyan"
+truncation_length = 0
+truncate_to_repo = true
+truncation_symbol = "repo: "
+
+[character]
+success_symbol = "[╰─╴\\$](bold blue)"
+error_symbol = "[╰─╴\\$](bold blue)"
