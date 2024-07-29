@@ -5,7 +5,7 @@ TERM="tmux-256color"
 size=11
 
 [font.normal]
-family="Iosevka Extended"
+family="JetBrains Mono"
 
 [window]
 dynamic_padding=true
