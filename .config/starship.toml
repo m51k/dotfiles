@@ -1,12 +1,11 @@
-[username]
-style_user = "green bold"
-style_root = "red bold"
-format = "[╭─╴](blue bold)[$user]($style)"
-show_always = true
+[character]
+success_symbol = "[\\$](bold green)"
+error_symbol = "[\\$](bold red)"
 
-[hostname]
-ssh_only = false
-format = '[@](bold blue)[$hostname](bold yellow) '
+[cmd_duration]
+min_time = 10_000   # 10 seconds
+format = "took [$duration]($style) "
+show_milliseconds = true
 
 [directory]
 style = "bold italic cyan"
@@ -14,6 +13,14 @@ truncation_length = 0
 truncate_to_repo = true
 truncation_symbol = "repo: "
 
-[character]
-success_symbol = "[╰─╴\\$](bold blue)"
-error_symbol = "[╰─╴\\$](bold blue)"
+[username]
+style_user = "bold green"
+style_root = "bold red"
+show_always = true
+format = "[$user]($style)"
+
+[hostname]
+ssh_only = false
+style = "bold yellow"
+format = "[@](bold bright black)[$hostname]($style) "
+disabled = false
