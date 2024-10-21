@@ -14,32 +14,78 @@ dynamic_padding=true
 x=0
 y=0
 
-# Colors (Solarized Osaka)
-# HSL convert HEX using https://colordesigner.io/
-
-# Default colors
 [colors.primary]
-background = '#00141a' #color.base04
-foreground = '#839495' #color.fg
+background = "#161616"
+foreground = "#f2f4f8"
+dim_foreground = "#b6b8bb"
+bright_foreground = "#f9fbff"
 
-# Normal colors
+[colors.cursor]
+text = "#f2f4f8"
+cursor = "#b6b8bb"
+
+[colors.vi_mode_cursor]
+text = "#f2f4f8"
+cursor = "#33b1ff"
+
+[colors.search.matches]
+foreground = "#f2f4f8"
+background = "#525253"
+
+[colors.search.focused_match]
+foreground = "#f2f4f8"
+background = "#3ddbd9"
+
+[colors.footer_bar]
+foreground = "#f2f4f8"
+background = "#353535"
+
+[colors.hints.start]
+foreground = "#f2f4f8"
+background = "#3ddbd9"
+
+[colors.hints.end]
+foreground = "#f2f4f8"
+background = "#353535"
+
+[colors.selection]
+text = "#f2f4f8"
+background = "#2a2a2a"
+
 [colors.normal]
-black   = '#00141a' #color.base04
-red     = '#dc312e' #color.red
-green   = '#859900' #color.green
-yellow  = '#b38600' #color.yellow
-blue    = '#278bd3' #color.blue
-magenta = '#d33682' #color.magenta
-cyan    = '#2aa298' #color.cyan
-white   = '#ede7d4' #color.base2
+black = "#282828"
+red = "#ee5396"
+green = "#25be6a"
+yellow = "#08bdba"
+blue = "#78a9ff"
+magenta = "#be95ff"
+cyan = "#33b1ff"
+white = "#dfdfe0"
 
-# Bright colors
 [colors.bright]
-black   = '#002d38' #color.base03
-red     = '#f65351' #color.red300
-green   = '#b7fa00' #color.green300
-yellow  = '#ffbf00' #color.yellow300
-blue    = '#47adf5' #color.blue300
-magenta = '#f254a1' #color.magenta300
-cyan    = '#2beede' #color.cyan300
-white   = '#fdf6e2' #color.base3
+black = "#484848"
+red = "#f16da6"
+green = "#46c880"
+yellow = "#2dc7c4"
+blue = "#8cb6ff"
+magenta = "#c8a5ff"
+cyan = "#52bdff"
+white = "#e4e4e5"
+
+[colors.dim]
+black = "#222222"
+red = "#ca4780"
+green = "#1fa25a"
+yellow = "#07a19e"
+blue = "#6690d9"
+magenta = "#a27fd9"
+cyan = "#2b96d9"
+white = "#bebebe"
+
+[[colors.indexed_colors]]
+index = 16
+color = "#3ddbd9"
+
+[[colors.indexed_colors]]
+index = 17
+color = "#ff7eb6"
