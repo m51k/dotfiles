@@ -9,9 +9,11 @@ if status is-interactive
 	set -gx EDITOR nvim
 	set -gx MANPAGER "nvim +Man!"
 
-	set -gx ROCM_PATH /opt/rocm
-	set -gx HSA_OVERRIDE_GFX_VERSION 10.3.0
-	set -gx HIP_VISIBLE_DEVICES 0
-	pyenv init - fish | source
 	zoxide init fish | source
+end
+
+set -x PHPENV_ROOT "/home/nep/.phpenv"
+if test -d "/home/nep/.phpenv"
+  set -x PATH "/home/nep/.phpenv/bin" $PATH
+  status --is-interactive; and . (phpenv init -|psub)
 end
