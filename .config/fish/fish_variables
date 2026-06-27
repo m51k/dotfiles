@@ -1,6 +1,0 @@
-# This file contains fish universal variable definitions.
-# VERSION: 3.0
-SETUVAR --export PYENV_ROOT:/home/nep/\x2epyenv
-SETUVAR __fish_initialized:4300
-SETUVAR fish_greeting:
-SETUVAR fish_user_paths:/home/nep/\x2elocal/bin\x1e/home/nep/\x2epyenv/bin
